@@ -36,5 +36,6 @@ void linkList_printListNode(void)
 }
 int main()
 {
-
+linkList_printListNode;
+linkList_CreatNode;
 }
