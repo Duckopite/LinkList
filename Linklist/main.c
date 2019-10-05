@@ -25,10 +25,12 @@ node linkList_CreatNode()
 }
 void linkList_printListNode(void)
 {
+    node temp;
     int index=0u;
     for(index=0;index<sizeof(struct Linklist); index++)
     {
-
+        printf("Name: %s", temp->name);
+        printf("Age: %d", temp->age);
 
     }
 
