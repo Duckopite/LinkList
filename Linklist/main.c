@@ -29,9 +29,15 @@ void linkList_printListNode(void)
     int index=0u;
     for(index=0;index<sizeof(struct Linklist); index++)
     {
+<<<<<<< HEAD
         printf("Name: %s", temp->name);
         printf("Age: %d", temp->age);
 
+=======
+        printf("Name: Thai Viet Duc");
+        printf("Age: 25");
+	1234569
+>>>>>>> origin/master
     }
 
 }
