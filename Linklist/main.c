@@ -28,7 +28,8 @@ void linkList_printListNode(void)
     int index=0u;
     for(index=0;index<sizeof(struct Linklist); index++)
     {
-
+        printf("Name: Thai Viet Duc");
+        printf("Age: 25");
 
     }
 
