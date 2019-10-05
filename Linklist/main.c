@@ -30,7 +30,7 @@ void linkList_printListNode(void)
     {
         printf("Name: Thai Viet Duc");
         printf("Age: 25");
-
+	1234569
     }
 
 }
