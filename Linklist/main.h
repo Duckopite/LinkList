@@ -14,4 +14,11 @@ struct listClass
    struct listClass *next;
 };
 
+#define PRINT_LIST 1u
+#define ADD_STUDENT 2u
+#define SEARCH_STUDENT 3u
+#define ARRANGE_STUDENT 4u
+#define DELETE_STUDENT 5u
+
+
 #endif
