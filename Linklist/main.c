@@ -1,20 +1,39 @@
 #include <main.h>
-typedef struct listClass *node;
-listClass linkListNode_init()
+typedef struct
 {
-    data =  malloc(sizeof(struct listClass));
-    printf("Nhap ten:");
-    scanf("%d", &(data->name));
-    printf("Nhap tuoi:");
-    scanf("%d", &(data->age));
-    data->node = NULL;
+    char name[30];
+    int* age;
+    int* pointAve;
+} listClass;
+void inputInfoStudent(listClass *student)
+{
+    student = (listClass *) malloc(sizeof(listClass));
+    printf("Nhap ten hoc sinh : ");
+    scanf("%s", student->name);
+    printf("Nhap tuoi : ");
+    scanf("%d", student->age);
+    printf("Nhap diem trung binh : ");
+    scanf("%d", student->pointAve);
 }
-void linkListNode_addHead(struct listClass *head)
+
+void printInfoStudent(listClass *student)
 {
 
-
+    inputInfoStudent(student);
 }
-int main(void)
+void AddStudent(listClass *student)
 {
+    student = (listClass*) realloc(student, sizeof(listClass));
+    inputInfoStudent(student);
+}
+int main()
+{
+    listClass *student;
+    int Select = 0u;
+    switch(Select)
+    {
+        case PRINT_LIST:
+
+    }
 
 }
